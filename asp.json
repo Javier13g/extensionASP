@@ -1,0 +1,43 @@
+{
+    "Form ASP": {
+        "prefix": "form-asp",
+        "body": [
+            "<div class='container text-center'>",
+            "\t<form asp-action='' asp-controller='' method='post'>",
+            "\t\t<div class='row'>",
+            "\t\t\t<input type='hidden' asp-for=''></input>",
+            "\t\t\t<div class='form-group col'>",
+            "\t\t\t\t<label>TEST</label>",
+            "\t\t\t\t<input type='text' asp-for='' class='form-control'/>",
+            "\t\t\t\t<span asp-validation-for='' class='badge bg-red'></span>",
+            "\t\t\t</div>",
+            "\t\t\t$2",
+            "\t\t\t<div class='form-group col'>",
+            "\t\t\t\t<label>TEST</label>",
+            "\t\t\t\t<input type='text' asp-for='' class='form-control'/>",
+            "\t\t\t\t<span asp-validation-for='' class='badge bg-red'></span>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t\t\t$2",
+            "\t\t<div class='row'>",
+            "\t\t\t<div class='form-group col'>",
+            "\t\t\t\t<label>TEST</label>",
+            "\t\t\t\t<input type='text' asp-for='' class='form-control'/>",
+            "\t\t\t\t<span asp-validation-for='' class='badge bg-red'></span>",
+            "\t\t\t</div>",
+            "\t\t\t$2",
+            "\t\t\t<div class='form-group col'>",
+            "\t\t\t\t<label>TEST</label>",
+            "\t\t\t\t<input type='text' asp-for='' class='form-control'/>",
+            "\t\t\t\t<span asp-validation-for='' class='badge bg-red'></span>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t\t<div class='form-group col'>",
+            "\t\t\t<button type='submit' class='btn btn-primary btn-lg btn-block'>@(Model.ClienteId > 0 ? 'Actualizar':'Guardar')</button>",
+            "\t\t</div>",
+            "\t</form>",
+            "</div>"
+        ],
+        "description": "Form Asp-Bootstrap – Demo"
+        }
+}
